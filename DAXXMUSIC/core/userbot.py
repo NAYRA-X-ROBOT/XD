@@ -11,35 +11,35 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="DAXXAss1",
+            name="HEARTss1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
             no_updates=True,
         )
         self.two = Client(
-            name="DAXXAss2",
+            name="HEARTAss2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
             no_updates=True,
         )
         self.three = Client(
-            name="DAXXAss3",
+            name="HEARTAss3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
             no_updates=True,
         )
         self.four = Client(
-            name="DAXXAss4",
+            name="HEARTAss4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
             no_updates=True,
         )
         self.five = Client(
-            name="DAXXAss5",
+            name="HEARTAss5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -51,8 +51,8 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("ALLTYPECC")
-                await self.one.join_chat("DAXXSUPPORT")
+                await self.one.join_chat("AboutshayarAkhawab")
+                await self.one.join_chat("Y_K_B_M")
             except:
                 pass
             assistants.append(1)
@@ -72,8 +72,8 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("ALLTYPECC")
-                await self.one.join_chat("DAXXSUPPORT")
+                await self.two.join_chat("AboutshayarAkhawab")
+                await self.one.join_chat("Y_K_B_M"")
             except:
                 pass
             assistants.append(2)
